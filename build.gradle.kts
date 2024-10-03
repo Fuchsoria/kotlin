@@ -1,18 +1,26 @@
-import org.gradle.kotlin.dsl.support.kotlinCompilerOptions
-
 plugins {
-    kotlin("jvm") apply false
+    kotlin("jvm") version "2.0.20"
 }
 
-group = "fuchsoria.dev.kotlin"
-version = "1.0-SNAPSHOT"
+group = "dev.fuchsoria.kotlin.rewards"
+version = "0.0.1"
 
-allprojects {
-    repositories {
-        mavenCentral()
-    }
+repositories {
+    mavenCentral()
 }
 
 subprojects {
+    repositories {
+        mavenCentral()
+    }
     group = rootProject.group
+    version = rootProject.version
+}
+
+dependencies {
+    implementation(kotlin("stdlib-jdk22"))
+}
+
+kotlin {
+    jvmToolchain(22)
 }

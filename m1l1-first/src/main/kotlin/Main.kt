@@ -1,4 +1,4 @@
-package fuchsoria.dev.kotlin
+package dev.fuchsoria.kotlin.rewards
 
 fun main() {
     val name = "Kotlin"
