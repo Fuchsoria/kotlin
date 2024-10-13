@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "dev.fuchsoria.kotlin.rewards"
-version = "0.0.1"
+version = "0.1.1"
 
 repositories {
     mavenCentral()
@@ -18,9 +18,9 @@ subprojects {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk22"))
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 kotlin {
-    jvmToolchain(22)
+    jvmToolchain(21)
 }
