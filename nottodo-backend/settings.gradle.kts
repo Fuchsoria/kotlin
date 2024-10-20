@@ -1,4 +1,4 @@
-rootProject.name = "rewards-backend"
+rootProject.name = "nottodo-backend"
 
 dependencyResolutionManagement {
     versionCatalogs {
@@ -28,4 +28,4 @@ plugins {
 //implementation(projects.m2l6Gradle.sub1.subsub1)
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-include(":rewards-tmp")
+include(":nottodo-tmp")

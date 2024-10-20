@@ -8,7 +8,7 @@ pluginManagement {
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
-rootProject.name = "rewards"
+rootProject.name = "nottodo"
 
 includeBuild("lessons")
-includeBuild("rewards-backend")
+includeBuild("nottodo-backend")

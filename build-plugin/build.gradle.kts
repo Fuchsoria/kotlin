@@ -6,11 +6,11 @@ gradlePlugin {
     plugins {
         register("build-jvm") {
             id = "build-jvm"
-            implementationClass = "dev.fuchsoria.kotlin.rewards.plugin.BuildPluginJvm"
+            implementationClass = "dev.fuchsoria.kotlin.nottodo.plugin.BuildPluginJvm"
         }
         register("build-kmp") {
             id = "build-kmp"
-            implementationClass = "dev.fuchsoria.kotlin.rewards.plugin.BuildPluginMultiplatform"
+            implementationClass = "dev.fuchsoria.kotlin.nottodo.plugin.BuildPluginMultiplatform"
         }
     }
 }

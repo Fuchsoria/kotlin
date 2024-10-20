@@ -1,4 +1,4 @@
-package dev.fuchsoria.kotlin.rewards.plugin
+package dev.fuchsoria.kotlin.nottodo.plugin
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

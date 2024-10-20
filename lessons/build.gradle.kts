@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.0.20"
 }
 
-group = "dev.fuchsoria.kotlin.rewards"
+group = "dev.fuchsoria.kotlin.nottodo"
 version = "0.1.1"
 
 repositories {
