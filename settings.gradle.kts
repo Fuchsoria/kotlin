@@ -10,5 +10,5 @@ plugins {
 }
 rootProject.name = "nottodo"
 
-includeBuild("lessons")
+//includeBuild("lessons")
 includeBuild("nottodo-backend")
